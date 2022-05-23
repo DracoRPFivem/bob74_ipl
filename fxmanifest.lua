@@ -23,7 +23,6 @@ client_scripts {
 	, "gtav/franklin.lua"
 	, "gtav/franklin_aunt.lua"
 	, "gtav/graffitis.lua"
-	, "gtav/pillbox_hospital.lua"
 	, "gtav/lester_factory.lua"
 	, "gtav/michael.lua"
 	, "gtav/north_yankton.lua"
@@ -102,10 +101,6 @@ client_scripts {
 	-- DLC After Hours
 	, "dlc_afterhours/nightclubs.lua"
 	
-	-- DLC Diamond Casino (Requires forced build 2060 or higher)
-	, "dlc_casino/casino.lua"
-	, "dlc_casino/penthouse.lua"
-
 	-- DLC Tuners (Requires forced build 2372 or higher)
 	, "dlc_tuner/garage.lua"
 	, "dlc_tuner/meetup.lua"

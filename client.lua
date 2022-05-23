@@ -25,9 +25,6 @@ Citizen.CreateThread(function()
     -- Bahama Mamas: -1388.0013, -618.41967, 30.819599
     BahamaMamas.Enable(true)
 
-    -- Pillbox hospital: 307.1680, -590.807, 43.280
-    PillboxHospital.Enable(false)--Pillbox map is installed by default when installing QB-Core. Check [default-maps] for the map.
-
     -- Zancudo Gates (GTAO like): -1600.30100000, 2806.73100000, 18.79683000
     ZancudoGates.LoadDefault()
 
@@ -136,14 +133,6 @@ Citizen.CreateThread(function()
     -- =----------------------- [DLC: After Hours] -----------------------=
     -- ====================================================================
     AfterHoursNightclubs.LoadDefault()          -- -1604.664, -3012.583, -78.000
-
-    -- ====================================================================
-    -- =------------------- [DLC: Diamond Casino Resort] -----------------=
-    -- ====================================================================
-    if GetGameBuildNumber() >= 2060 then
-        DiamondCasino.LoadDefault()                -- 1100.000, 220.000, -50.000
-        DiamondPenthouse.LoadDefault()             -- 976.636, 70.295, 115.164
-    end
 
     -- ====================================================================
     -- =------------------- [DLC: Los Santos Tuners] ---------------------=
